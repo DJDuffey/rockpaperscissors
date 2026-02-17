@@ -98,14 +98,14 @@ for (i = 0; i < 5; i ++){
     
 }
 
-if (humanScore > computerScore){
-    console.log("You are the winner of the series!!");
-}
+    if (humanScore > computerScore){
+        console.log("You are the winner of the series!!");
+    }
 
-if (humanScore < computerScore){
-    console.log("You are the loser of the series :(");
-}
+    if (humanScore < computerScore){
+        console.log("You are the loser of the series :(");
+    }
 
-if(humanScore == computerScore){
-    console.log("The Series is a Draw.");
+    if(humanScore == computerScore){
+        console.log("The Series is a Draw.");
 }
